@@ -1,4 +1,4 @@
-# dai5_EDA_case_study
+# DAI5 EDA Case Study: Youtube Analytics
 
 * Authors:
 
