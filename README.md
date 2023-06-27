@@ -32,7 +32,6 @@
 
 * The data consists of metrics related to individual videos uploaded to Youtube.
 
-* * run df.describe on either json or csv to generate summary stats for dataset. Snip pic of dataset summary stats to highlight high level overview.
 
 
 ## 	What features (columns) did you have to work with? 
@@ -75,7 +74,7 @@ There are 16 columns:
 (bool / numerical / categorical / object (str))
 
 
-* give snippet or example of each type
+
 
 ## Was a lot of data missing? (If so, what did you do to handle it?)
 
@@ -92,9 +91,9 @@ There are 16 columns:
 
 ## Use plots to clearly communicate the data's story to stakeholders.
 
+<img src="./category_views.png" alt="Getting started" />
 <img src="./topfivecomedy.png" alt="Getting started" />
 <img src="./topfiveent.png" alt="Getting started" />
-<img src="./topfivefilm.png" alt="Getting started" />
 <img src="./topfivefilm.png" alt="Getting started" />
 <img src="./topfivemusic.png" alt="Getting started" />
 <img src="./topfivepnb.png" alt="Getting started" />
