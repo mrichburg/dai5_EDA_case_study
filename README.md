@@ -110,10 +110,17 @@ Find the top 5 categories to advertise to.
     * x-axis is categories
     * y-axis is view count
 
-Top 20 (or 100) videos for each category
+Top 5 channels for each category
 * Barh graph
 * video_id on the y-axis
 * views on x-axis
+<img src="./topfivecomedy.png" alt="Getting started" />
+<img src="./topfiveent.png" alt="Getting started" />
+<img src="./topfivefilm.png" alt="Getting started" />
+<img src="./topfivefilm.png" alt="Getting started" />
+<img src="./topfivemusic.png" alt="Getting started" />
+<img src="./topfivepnb.png" alt="Getting started" />
+
 
 Correlation matrix for top videos on each category(should have 5 total)
 
