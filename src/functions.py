@@ -35,6 +35,7 @@ def merge_csv_json(df1, df2):
     dict_1 = {row['id']: row['snippet.title'] for _, row in df2.iterrows()}
     df1['category_id'] = df1['category_id'].astype(str)
     df1['Cat_Title'] = df1['category_id'].map(dict_1)
+    df1['category_id'] = df1['category_id'].astype(int)
     return df1
 
 def describe_dataframe(df):
