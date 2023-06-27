@@ -87,3 +87,50 @@ There are 16 columns:
 * anything that specifically helps tell our story and our obj’s
 
 
+## STEPS
+
+Goal:
+
+1. Finding the top 5 categories to advertise to by looking at views
+
+2. For each category:
+Find top 20-50 videos (or 100 if there is that many)
+Find the correlations for each
+(Find Common traits for each)
+
+3. Determine if there is a different trend criteria for each category by analyzing the correlation matrixes 
+
+
+4. Establish the top 5 channels for each category that should be advertised to.
+
+Graph types:
+
+Find the top 5 categories to advertise to.
+* Bar graph
+    * x-axis is categories
+    * y-axis is view count
+
+Top 20 (or 100) videos for each category
+* Barh graph
+* video_id on the y-axis
+* views on x-axis
+
+Correlation matrix for top videos on each category(should have 5 total)
+
+Created a slide that shows all correlation matrixes and visually determine commonalities
+
+Find the top 5 channels from each categories to advertise to.
+* Bar graph
+  *  x-axis is channels
+  *  y-axis is *column that had the highest correlation with view count*
+
+
+Finding common traits of high view count.
+* Correlation matrix
+    * is there a correlation between views and:
+      *  amount of tags
+      *  description length 
+        
+
+
+
