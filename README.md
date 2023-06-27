@@ -11,9 +11,12 @@
 ## Project Goal 
 
 
-* Finding common traits of high view count
+* Finding the top 5 categories to advertise to.
 
-* Finding the top 5 (or 10) categories to advertise to
+* Finding top 5 channels per category to advertise to.
+
+* Visualize overall engagement by channel
+
 
 
 ## Benefit of Exploratory Data Analysis
@@ -56,87 +59,49 @@ There are 16 columns:
 
 ## What features were you interested in?
 
-* views, likes, dislikes(engagement meter), categories, tags
+* Views
 
-* why are we interested in these?
+* Likes
 
+* Dislikes (engagement meter)
+
+* Categories
+
+* Channels
 
 ## Were the features numerical/categorical/text?
 
-* mixture of all three 
+* A mixture of all three
+(bool / numerical / categorical / object (str))
+
 
 * give snippet or example of each type
 
 ## Was a lot of data missing? (If so, what did you do to handle it?)
 
-* minimal data missing 
-
-* show snippet of the \n rows
+* There was a no missing data observed while the team was specifically viewing the US dataset. 
 
 
 ## How did features relate to each other, and the values that you were interested in?
 
-* first/second plot
+* Noticeable relationships between views, channels, and categories
 
-* poss corr matrix, heatmap, and hist
+* There are many other subcomponents of those videos and channels to include likes, dislikes, and comment count that have impactful relationships on the aforementioned
+
 
 
 ## Use plots to clearly communicate the data's story to stakeholders.
 
-* more plots 
-* anything that specifically helps tell our story and our obj’s
-
-
-## STEPS
-
-Goal:
-
-1. Finding the top 5 categories to advertise to by looking at views
-
-2. For each category:
-Find top 20-50 videos (or 100 if there is that many)
-Find the correlations for each
-(Find Common traits for each)
-
-3. Determine if there is a different trend criteria for each category by analyzing the correlation matrixes 
-
-
-4. Establish the top 5 channels for each category that should be advertised to.
-
-Graph types:
-
-Find the top 5 categories to advertise to.
-* Bar graph
-    * x-axis is categories
-    * y-axis is view count
-
-Top 5 channels for each category
-* Barh graph
-* video_id on the y-axis
-* views on x-axis
 <img src="./topfivecomedy.png" alt="Getting started" />
 <img src="./topfiveent.png" alt="Getting started" />
 <img src="./topfivefilm.png" alt="Getting started" />
 <img src="./topfivefilm.png" alt="Getting started" />
 <img src="./topfivemusic.png" alt="Getting started" />
 <img src="./topfivepnb.png" alt="Getting started" />
+<img src="./totalengagement.png" alt="Getting started" />
 
 
-Correlation matrix for top videos on each category(should have 5 total)
 
-Created a slide that shows all correlation matrixes and visually determine commonalities
-
-Find the top 5 channels from each categories to advertise to.
-* Bar graph
-  *  x-axis is channels
-  *  y-axis is *column that had the highest correlation with view count*
-
-
-Finding common traits of high view count.
-* Correlation matrix
-    * is there a correlation between views and:
-      *  amount of tags
-      *  description length 
         
 
 
