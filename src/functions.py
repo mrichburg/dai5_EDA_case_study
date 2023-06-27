@@ -31,6 +31,12 @@ def read_file(file_path):
 #example json_file_path = 'path/to/file.json'
 #example json_df = read_file(json_file_path)
 
+def merge_csv_json(df1, df2):
+    dict_1 = {row['id']: row['snippet.title'] for _, row in df2.iterrows()}
+    df1['category_id'] = df1['category_id'].astype(str)
+    df1['Cat_Title'] = df1['category_id'].map(dict_1)
+    return df1
+
 def describe_dataframe(df):
     """
     Generate descriptive statistics for each numerical column in a Pandas DataFrame.
@@ -98,6 +104,8 @@ def get_rid_of_null(df):
     """
     df = df[~df['video_id'].str.startswith("\n")]
     return df
+
+
 
 def numerics_corr_matrix(df):
     #removes non-numeric fields in order to enable correlation by key areas
