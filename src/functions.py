@@ -19,11 +19,11 @@ def read_file(file_path):
         pandas.DataFrame: DataFrame containing the file data.
     """
     if file_path.endswith('.json'):
-        return pd.read_json(file_path)
-    elif file_path.endswith('.csv'):
         with open(file_path) as f:
             d = json.load(f)
         return json_normalize(d['items'])
+    elif file_path.endswith('.csv'):
+        return pd.read_csv(file_path)
     else:
         print("Error: Invalid file extension.")
         return None
@@ -68,7 +68,7 @@ def find_missing_data(df):
 
 #get column and show featuers(data type)
 
-def get_column_featuers(df):
+def get_column_features(df):
     """provides column dict listing and data type for pandas dataframe
 
     Args:
