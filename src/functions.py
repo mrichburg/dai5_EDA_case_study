@@ -121,7 +121,7 @@ def numerics_corr_matrix(df):
     mask = np.triu(np.ones_like(corr, dtype=bool))
 
     # Set up the matplotlib figure
-    f, ax = plt.subplots(figsize=(11, 9))
+    f, ax = plt.subplots(figsize=(8, 6))
 
     # Draw the heatmap with the mask and correct aspect ratio
     heatmap = sns.heatmap(corr, mask=mask, cmap='coolwarm', vmax=.3, center=0,
