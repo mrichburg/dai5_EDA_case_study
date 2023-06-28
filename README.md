@@ -1,5 +1,7 @@
 # DAI5 EDA Case Study: Youtube Analytics
 
+# Link to presentation: https://docs.google.com/presentation/d/13sGvp1Lup6NNONmAfsekX7ds5JyB1K3TRIxLcgQ0AKQ/edit?usp=sharing 
+
 ### Authors:
 
   * Makhi Richburg
